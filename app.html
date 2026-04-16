@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Warranty Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-box">
+        <h1>Warranty Tracker</h1>
+        
+        <div class="input-section">
+            <p>Enter Product Name:</p>
+            <input type="text" id="pName" placeholder="e.g. Sony Headphones">
+            
+            <p>Purchase Date:</p>
+            <input type="date" id="pDate">
+            
+            <p>Warranty in Months:</p>
+            <input type="number" id="wMonths">
+            
+            <button id="addBtn" onclick="addWarranty()">Save Product</button>
+        </div>
+
+        <hr>
+
+        <div id="list">
+            <div class="item">
+                <h3>Sample Laptop</h3>
+                <p>Status: Active</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
